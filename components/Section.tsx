@@ -13,8 +13,8 @@ export function Section({ heading, children }: SectionProps) {
     <section>
       {heading != undefined ? (
         <div>
-          <h1 class={tw`text-3xl font-semibold`}>{heading}</h1>
-          <div class={tw`border-b-sm border-black -mx-4`}></div>
+          <h1 class={tw`text-3xl font-serif font-semibold`}>{heading}</h1>
+          <div class={tw`border-b-md border-black -mx-4`}></div>
         </div>
       ) : null}
 

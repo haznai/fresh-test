@@ -6,7 +6,7 @@ import { Section } from "../components/Section.tsx";
 
 export default function Home() {
   return (
-    <html class={tw`md:text-xl font-serif`}>
+    <html class={tw`md:text-xl font-sans`}>
       <Head>
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -26,16 +26,19 @@ export default function Home() {
                 src="/hazn_logo.svg"
                 alt="logo saying hazn in fancy way"
               />
-              <div class={tw`flex-none place-self-center pr-4`}>
+              {/* as above, so below */}
+              <div class={tw`flex-none place-self-center pr-4 font-serif`}>
                 as above, so below
               </div>
             </div>
           </header>
 
           <main class={tw`px-4`}>
+            {/* about me */}
             <Section>
               <div class={tw`h-[40vh]`}></div>
             </Section>
+            {/* projects */}
             <Section heading="Projects"></Section>
           </main>
         </div>
