@@ -21,7 +21,20 @@ export default function Home() {
           <main class={tw`px-4`}>
             {/* about me */}
             <Section>
-              <div class={tw`h-[40vh]`}></div>
+              <div class={tw`relative`}>
+                <img
+                  class={tw`absolute animate-statue h-60`}
+                  style="image-rendering:crisp-edges"
+                  src="/head_fg.png"
+                  alt="drawn statue of my head"
+                />
+                <img
+                  class={tw`h-60`}
+                  src="/head_bg.png"
+                  style="image-rendering:crisp-edges"
+                  alt="drawn statue of my head"
+                />
+              </div>
             </Section>
             {/* projects */}
             <Section heading="Projects"></Section>
