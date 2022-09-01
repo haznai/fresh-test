@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <body>
         <div
-          class={tw`max-w-xl min-h-screen mx-auto bg-white md:border-x-sm border-black`}
+          class={tw`max-w-xl min-h-screen mx-auto bg-white border-x-sm border-black`}
         >
           <Header />
           <main class={tw`px-4`}>
