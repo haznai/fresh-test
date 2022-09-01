@@ -35,6 +35,21 @@ export const config: Configuration = {
       serif:
         "Source\\ Serif\\ 4, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
     },
+    extend: {
+      animation: {
+        statue: "statue 5s ease-in-out infinite alternate;",
+      },
+      keyframes: {
+        statue: {
+          "0%": {
+            transform: "translateY(20px)",
+          },
+          "100%": {
+            transform: "translateY(80px)",
+          },
+        },
+      },
+    },
   },
 };
 if (IS_BROWSER) setup(config);
