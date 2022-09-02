@@ -7,7 +7,6 @@ export function AboutMeSection() {
   return (
     <div class={tw`grid grid-cols-2 grid-rows-min gap-3 pt-2`}>
       {/* floating statue */}
-      <div class={tw`row-span-2 relative justify-self-center z-0 `}>
       <div
         class={tw`row-span-2 relative justify-self-center z-0 pointer-events-none`}
       >
@@ -44,8 +43,13 @@ export function AboutMeSection() {
       {/* interests */}
       <div class={tw`row-span-1 col-span-2 sm:col-span-1`}>
         <SubSection heading="Interests">
-          <div class={tw`inline-flex items-center font-bold uppercase text-xs`}>
-            <img class={tw`h-5`} src="/iconblocks/gear.svg" />
+          <div
+            class={tw`inline-flex gap-0.5 pl-1 pr-1.5 py-0.5 items-center border-sm border-black font-bold uppercase text-xs`}
+          >
+            <img
+              class={tw`h-4 hover:animate-spin`}
+              src="/iconblocks/gear.svg"
+            />
             <span>rust</span>
           </div>
         </SubSection>
