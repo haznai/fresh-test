@@ -48,20 +48,20 @@ export function AboutMeSection() {
         class={tw`row-span-2 relative justify-self-center z-0 pointer-events-none`}
       >
         <img
-          class={tw`absolute top-8 p-1 filter blur-xl animate-gradient z-0`}
+          class={tw`absolute aspect-auto top-8 p-1 filter blur-xl animate-gradient z-0`}
           src="/circle_1.png"
           alt="colorful blurry circle spinning in the background"
         />
 
         <img
-          class={tw`absolute h-64 py-5 pl-5 pr-6 animate-statue z-20`}
+          class={tw`absolute h-64  aspect-auto py-5 pl-5 pr-6 animate-statue z-20`}
           style="image-rendering:crisp-edges"
           src="/head_fg.png"
           alt="drawn statue of my head"
         />
 
         <img
-          class={tw`relative h-64 py-5 pl-5 pr-6 z-10`}
+          class={tw`relative h-64 aspect-auto py-5 pl-5 pr-6 z-10`}
           src="/head_bg.png"
           style="image-rendering:crisp-edges"
           alt="drawn statue of my head"

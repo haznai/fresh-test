@@ -14,7 +14,7 @@ export function IconBlock({ src, text }: IconBlockProps) {
       <span
         class={tw`absolute left-0 w-6 h-12 duration-1000 -translate-x-10 rotate-[20deg] group-hover:translate-x-36 bg-black`}
       />
-      <img class={tw`h-4`} src={src} alt="logo of the technology" />
+      <img class={tw`h-4 aspect-auto`} src={src} alt="logo of the technology" />
       <span class={tw` font-bold uppercase text-xs`}>{text}</span>
     </div>
   );
