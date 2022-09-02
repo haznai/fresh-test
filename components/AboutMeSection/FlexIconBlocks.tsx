@@ -2,18 +2,23 @@
 import { h } from "preact";
 import { tw } from "@twind";
 import { IconBlock } from "../IconBlock.tsx";
+import { IconBlockMarkups } from "./AboutMeSection.tsx";
 
 interface FlexIconBlocksProps {
-  iconMarkups: { text: string; src: string }[];
+  // takes only keys (icons) that exist in `IconBlockMarkups`
+  iconNames: (keyof typeof IconBlockMarkups)[];
 }
 
-export function FlexIconBlocks({ iconMarkups }: FlexIconBlocksProps) {
+export function FlexIconBlocks({ iconNames }: FlexIconBlocksProps) {
   {
     return (
       <div class={tw`flex flex-wrap gap-1`}>
-        {iconMarkups.map((x) => (
-          <IconBlock text={x.text} src={x.src} />
-        ))}
+        {
+          // create `IconBlock` for each passed icon
+          iconNames.map((x) => (
+            <IconBlock text={x as string} src={IconBlockMarkups[x]} />
+          ))
+        }
       </div>
     );
   }

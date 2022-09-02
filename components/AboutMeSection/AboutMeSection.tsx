@@ -2,24 +2,24 @@
 import { h } from "preact";
 import { tw } from "@twind";
 import { SubSection } from "./SubSection.tsx";
-import { IconBlock } from "../IconBlock.tsx";
 import { FlexIconBlocks } from "./FlexIconBlocks.tsx";
 
-// array for the icons in the 'interests' subsection
-const interests: { text: string; src: string }[] = [
-  { text: "football", src: "/iconblocks/football.svg" },
-  { text: "mma", src: "/iconblocks/mma.svg" },
-  { text: "taking walks", src: "/iconblocks/taking_walks.svg" },
-  { text: "reading", src: "/iconblocks/reading.svg" },
-  { text: "journaling", src: "/iconblocks/journaling.svg" },
-  { text: "vinyl", src: "/iconblocks/vinyl.svg" },
-  { text: "design x ai", src: "/iconblocks/design_x_ai.svg" },
-  { text: "cutting-edge tech", src: "/iconblocks/cutting_edge_tech.svg" },
-];
+// all possible iconblocks are stored here
 
-const technologies: { text: string; src: string }[] = [
-  { text: "rust", src: "/iconblocks/gear.svg" },
-];
+export const IconBlockMarkups = {
+  //interests
+  football: "/iconblocks/football.svg",
+  mma: "/iconblocks/mma.svg",
+  "taking walks": "/iconblocks/taking_walks.svg",
+  reading: "/iconblocks/reading.svg",
+  journaling: "/iconblocks/journaling.svg",
+  vinyl: "/iconblocks/vinyl.svg",
+  "design x ai": "/iconblocks/design_x_ai.svg",
+  "cutting-edge tech": "/iconblocks/cutting_edge_tech.svg",
+
+  // technologies
+  rust: "/iconblocks/gear.svg",
+};
 
 export function AboutMeSection() {
   return (
@@ -61,14 +61,25 @@ export function AboutMeSection() {
       {/* interests */}
       <div class={tw`row-span-1 col-span-2 sm:col-span-1`}>
         <SubSection heading="Interests">
-          <FlexIconBlocks iconMarkups={interests} />
+          <FlexIconBlocks
+            iconNames={[
+              "football",
+              "mma",
+              "taking walks",
+              "reading",
+              "journaling",
+              "vinyl",
+              "design x ai",
+              "cutting-edge tech",
+            ]}
+          />
         </SubSection>
       </div>
 
       {/* technologies */}
       <div class={tw`row-span-1 col-span-2 pt-2`}>
         <SubSection heading="Technologies">
-          <FlexIconBlocks iconMarkups={technologies}></FlexIconBlocks>
+          {/* <FlexIconBlocks iconMarkups={technologies}></FlexIconBlocks> */}
         </SubSection>
       </div>
     </div>
