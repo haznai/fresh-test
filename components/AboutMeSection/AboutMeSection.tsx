@@ -2,6 +2,23 @@
 import { h } from "preact";
 import { tw } from "@twind";
 import { SubSection } from "./SubSection.tsx";
+import { IconBlock } from "../IconBlock.tsx";
+
+// array for the icons in the 'interests' subsection
+const interests: { text: string; src: string }[] = [
+  { text: "football", src: "/iconblocks/football.svg" },
+  { text: "mma", src: "/iconblocks/gear.svg" },
+  { text: "taking walks", src: "/iconblocks/taking_walks.svg" },
+  { text: "reading", src: "/iconblocks/reading.svg" },
+  { text: "journaling", src: "/iconblocks/journaling.svg" },
+  { text: "design x ai", src: "/iconblocks/design_x_ai.svg" },
+  { text: "vinyl", src: "/iconblocks/vinyl.svg" },
+  { text: "cutting-edge tech", src: "/iconblocks/cutting_edge_tech.svg" },
+];
+
+const technologies: { text: string; src: string }[] = [
+  { text: "rust", src: "/iconblocks/gear.svg" },
+];
 
 export function AboutMeSection() {
   return (
@@ -43,21 +60,19 @@ export function AboutMeSection() {
       {/* interests */}
       <div class={tw`row-span-1 col-span-2 sm:col-span-1`}>
         <SubSection heading="Interests">
-          <div
-            class={tw`inline-flex gap-0.5 pl-1 pr-1.5 py-0.5 items-center border-sm border-black font-bold uppercase text-xs`}
-          >
-            <img
-              class={tw`h-4 hover:animate-spin`}
-              src="/iconblocks/gear.svg"
-            />
-            <span>rust</span>
-          </div>
+          {interests.map((x) => (
+            <IconBlock text={x.text} src={x.src} />
+          ))}
         </SubSection>
       </div>
 
       {/* technologies */}
       <div class={tw`row-span-1 col-span-2 pt-2`}>
-        <SubSection heading="Technologies"></SubSection>
+        <SubSection heading="Technologies">
+          {technologies.map((x) => (
+            <IconBlock text={x.text} src={x.src} />
+          ))}
+        </SubSection>
       </div>
     </div>
   );
