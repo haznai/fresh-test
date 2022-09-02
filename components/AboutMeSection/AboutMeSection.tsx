@@ -40,7 +40,12 @@ export function AboutMeSection() {
 
       {/* interests */}
       <div class={tw`row-span-1 col-span-2 sm:col-span-1`}>
-        <SubSection heading="Interests"></SubSection>
+        <SubSection heading="Interests">
+          <div class={tw`inline-flex items-center font-bold uppercase text-xs`}>
+            <img class={tw`h-5`} src="/iconblocks/gear.svg" />
+            <span>rust</span>
+          </div>
+        </SubSection>
       </div>
 
       {/* technologies */}
