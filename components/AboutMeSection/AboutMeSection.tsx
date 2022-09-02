@@ -3,16 +3,17 @@ import { h } from "preact";
 import { tw } from "@twind";
 import { SubSection } from "./SubSection.tsx";
 import { IconBlock } from "../IconBlock.tsx";
+import { FlexIconBlocks } from "./FlexIconBlocks.tsx";
 
 // array for the icons in the 'interests' subsection
 const interests: { text: string; src: string }[] = [
   { text: "football", src: "/iconblocks/football.svg" },
-  { text: "mma", src: "/iconblocks/gear.svg" },
+  { text: "mma", src: "/iconblocks/mma.svg" },
   { text: "taking walks", src: "/iconblocks/taking_walks.svg" },
   { text: "reading", src: "/iconblocks/reading.svg" },
   { text: "journaling", src: "/iconblocks/journaling.svg" },
-  { text: "design x ai", src: "/iconblocks/design_x_ai.svg" },
   { text: "vinyl", src: "/iconblocks/vinyl.svg" },
+  { text: "design x ai", src: "/iconblocks/design_x_ai.svg" },
   { text: "cutting-edge tech", src: "/iconblocks/cutting_edge_tech.svg" },
 ];
 
@@ -60,18 +61,14 @@ export function AboutMeSection() {
       {/* interests */}
       <div class={tw`row-span-1 col-span-2 sm:col-span-1`}>
         <SubSection heading="Interests">
-          {interests.map((x) => (
-            <IconBlock text={x.text} src={x.src} />
-          ))}
+          <FlexIconBlocks iconMarkups={interests} />
         </SubSection>
       </div>
 
       {/* technologies */}
       <div class={tw`row-span-1 col-span-2 pt-2`}>
         <SubSection heading="Technologies">
-          {technologies.map((x) => (
-            <IconBlock text={x.text} src={x.src} />
-          ))}
+          <FlexIconBlocks iconMarkups={technologies}></FlexIconBlocks>
         </SubSection>
       </div>
     </div>
