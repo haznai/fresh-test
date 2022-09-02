@@ -9,7 +9,7 @@ export function Header() {
         <div class={tw`w-[33%]`}></div>
         {/* hazn logo */}
         <img
-          class={tw`flex-none h-24`}
+          class={tw`flex-none h-24 pointer-events-none`}
           src="/hazn_logo.svg"
           alt="logo saying hazn in fancy way"
         />
@@ -19,7 +19,7 @@ export function Header() {
         >
           <span>as above, so below</span>
 
-          <img class={tw`h-5`} src="/sparkles.svg"></img>
+          <img class={tw`h-5 pointer-events-none`} src="/sparkles.svg"></img>
         </div>
       </div>
     </header>

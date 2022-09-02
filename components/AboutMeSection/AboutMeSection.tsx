@@ -8,6 +8,9 @@ export function AboutMeSection() {
     <div class={tw`grid grid-cols-2 grid-rows-min gap-3 pt-2`}>
       {/* floating statue */}
       <div class={tw`row-span-2 relative justify-self-center z-0 `}>
+      <div
+        class={tw`row-span-2 relative justify-self-center z-0 pointer-events-none`}
+      >
         <img
           class={tw`absolute top-8 p-1 filter blur-xl animate-gradient z-0`}
           src="/circle_1.png"
