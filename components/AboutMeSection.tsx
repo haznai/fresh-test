@@ -4,8 +4,9 @@ import { tw } from "@twind";
 
 export function AboutMeSection() {
   return (
-    <div class={tw`grid grid-cols-2 gap-2 pt-2`}>
-      <div class={tw`relative place-self-center z-0 `}>
+    <div class={tw`grid grid-cols-2 gap-3 pt-2`}>
+      {/* floating statue */}
+      <div class={tw`row-span-2 relative place-self-center z-0 `}>
         <img
           class={tw`absolute top-8 p-1 filter blur-xl animate-gradient z-0`}
           src="/circle_1.png"
@@ -24,9 +25,35 @@ export function AboutMeSection() {
           alt="drawn statue of my head"
         />
       </div>
-      <div>
-        <div class={tw`border-b-sm border-black font-serif font-semibold`}>
+
+      {/* about me */}
+      <div class={tw`row-span-2 sm:row-span-1`}>
+        <div class={tw` border-b-sm border-black font-serif font-semibold`}>
           About me
+        </div>
+        <div class={tw`pt-2`}>
+          Twenty-something software engineer from Zurich. Passionate about
+          developing Fullstack applications with Applied Artificial
+          Intelligence.
+        </div>
+      </div>
+
+      {/* interests */}
+      <div class={tw`row-span-1 col-span-2 sm:col-span-1`}>
+        <div class={tw` border-b-sm border-black font-serif font-semibold`}>
+          Interests
+        </div>
+        <div class={tw`pt-2`}>
+          Twenty-something software engineer from Zurich. Passionate about
+          developing Fullstack applications with Applied Artificial
+          Intelligence.
+        </div>
+      </div>
+
+      {/* technologies */}
+      <div class={tw`row-span-1 col-span-2 pt-2`}>
+        <div class={tw` border-b-sm border-black font-serif font-semibold`}>
+          Technologies
         </div>
         <div class={tw`pt-2`}>
           Twenty-something software engineer from Zurich. Passionate about
