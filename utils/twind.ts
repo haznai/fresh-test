@@ -32,7 +32,7 @@ export const config: Configuration = {
   theme: {
     borderWidth: {
       sm: ".0625rem",
-      md: "0.125rem",
+      md: "0.1rem",
       lg: "0.2rem",
     },
     fontFamily: {
