@@ -4,7 +4,7 @@ import { tw } from "@twind";
 
 export function Header() {
   return (
-    <header class={tw`relative`}>
+    <header class={tw`relative z-10`}>
       <div class={tw`flex h-[2.95rem] border-b-md border-black`}>
         <div class={tw`w-[33%]`}></div>
         {/* hazn logo */}
