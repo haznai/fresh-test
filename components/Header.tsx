@@ -18,9 +18,8 @@ export function Header() {
           class={tw`inline-flex flex-none place-self-center justify-self-right pr-4 -ml-8 font-serif`}
         >
           <span class={tw`place-self-center`}>as above, so below</span>
-          <span>
-            <img class={tw`h-6 place-self-center`} src="/sparkles.svg"></img>
-          </span>
+
+          <img class={tw`h-5 place-self-center`} src="/sparkles.svg"></img>
         </div>
       </div>
     </header>
