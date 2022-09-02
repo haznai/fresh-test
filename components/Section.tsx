@@ -10,7 +10,7 @@ interface SectionProps {
 
 export function Section({ heading, children }: SectionProps) {
   return (
-    <section>
+    <section class={tw`py-5`}>
       {heading != undefined ? (
         <div>
           <h1 class={tw`text-3xl font-serif font-semibold`}>{heading}</h1>
