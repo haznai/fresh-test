@@ -18,7 +18,26 @@ export const IconBlockMarkups = {
   "cutting-edge tech": "/iconblocks/cutting_edge_tech.svg",
 
   // technologies
-  rust: "/iconblocks/gear.svg",
+  "fast.ai": "/iconblocks/fastdotai.svg",
+  swift: "/iconblocks/swift.svg",
+  python: "/iconblocks/python.svg",
+  "next.js": "/iconblocks/nextdotjs.svg",
+  Prisma: "/iconblocks/prisma.svg",
+  xcode: "/iconblocks/xcode.svg",
+  vscode: "/iconblocks/vscode.svg",
+  webassembly: "/iconblocks/webassembly.svg",
+  blender: "/iconblocks/blender.svg",
+  tailwindcss: "/iconblocks/tailwindcss.svg",
+  deno: "/iconblocks/deno.svg",
+  typescript: "/iconblocks/typescript.svg",
+  sqlite: "/iconblocks/sqlite.svg",
+  docker: "/iconblocks/docker.svg",
+  jupyter: "/iconblocks/jupyter.svg",
+  figma: "/iconblocks/figma.svg",
+  vim: "/iconblocks/vim.svg",
+  rust: "/iconblocks/rust.svg",
+  react: "/iconblocks/react.svg",
+  git: "/iconblocks/git.svg",
 };
 
 export function AboutMeSection() {
@@ -77,9 +96,32 @@ export function AboutMeSection() {
       </div>
 
       {/* technologies */}
-      <div class={tw`row-span-1 col-span-2 pt-2`}>
+      <div class={tw`row-span-1 col-span-2 pt-2 pb-3`}>
         <SubSection heading="Technologies">
-          {/* <FlexIconBlocks iconMarkups={technologies}></FlexIconBlocks> */}
+          <FlexIconBlocks
+            iconNames={[
+              "rust",
+              "swift",
+              "python",
+              "typescript",
+              "deno",
+              "next.js",
+              "react",
+              "webassembly",
+              "Prisma",
+              "figma",
+              "tailwindcss",
+              "sqlite",
+              "jupyter",
+              "fast.ai",
+              "blender",
+              "vscode",
+              "xcode",
+              "vim",
+              "git",
+              "docker",
+            ]}
+          ></FlexIconBlocks>
         </SubSection>
       </div>
     </div>
