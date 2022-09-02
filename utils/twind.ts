@@ -38,6 +38,7 @@ export const config: Configuration = {
     extend: {
       animation: {
         statue: "statue 6s ease-in-out infinite alternate;",
+        gradient: "gradient 12s ease-in-out infinite alternate;",
       },
       keyframes: {
         statue: {
@@ -46,6 +47,21 @@ export const config: Configuration = {
           },
           "100%": {
             transform: "translateY(1.5rem)",
+          },
+        },
+        gradient: {
+          "0%": {
+            transform: "translateY(-0.3rem) rotate(0deg)",
+            opacity: 0.5,
+          },
+
+          "50%": {
+            transform: "translateY(1.5rem) rotate(180deg)",
+            opacity: 0.8,
+          },
+          "100%": {
+            transform: "translateY(-0.3rem) rotate(360deg)",
+            opacity: 1,
           },
         },
       },
