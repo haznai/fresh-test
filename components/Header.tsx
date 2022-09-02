@@ -15,11 +15,11 @@ export function Header() {
         />
         {/* as above, so below */}
         <div
-          class={tw`inline-flex flex-none place-self-center justify-self-right pr-4 -ml-8 font-serif`}
+          class={tw`inline-flex flex-none items-center pr-4 -ml-8 font-serif`}
         >
-          <span class={tw`place-self-center`}>as above, so below</span>
+          <span>as above, so below</span>
 
-          <img class={tw`h-5 place-self-center`} src="/sparkles.svg"></img>
+          <img class={tw`h-5`} src="/sparkles.svg"></img>
         </div>
       </div>
     </header>
