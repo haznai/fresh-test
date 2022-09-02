@@ -17,7 +17,7 @@ export default function Home() {
       <body>
         <div class={tw`max-w-xl min-h-screen mx-auto bg-white `}>
           <Header />
-          <main class={tw`px-4`}>
+          <main class={tw`px-6`}>
             {/* about me */}
             <Section>
               <AboutMeSection />
