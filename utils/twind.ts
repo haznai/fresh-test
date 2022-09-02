@@ -20,6 +20,11 @@ export const config: Configuration = {
         fontWeight: 400,
         src: "url(/fonts/source-sans-3-v8-latin-regular.woff) format(woff)",
       },
+      {
+        fontFamily: "Source\\ Sans\\ 3",
+        fontWeight: 700,
+        src: "url(/fonts/source-sans-3-v8-latin-700.woff) format(woff)",
+      },
     ],
   },
   darkMode: "class",
