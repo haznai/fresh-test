@@ -37,15 +37,15 @@ export const config: Configuration = {
     },
     extend: {
       animation: {
-        statue: "statue 5s ease-in-out infinite alternate;",
+        statue: "statue 6s ease-in-out infinite alternate;",
       },
       keyframes: {
         statue: {
           "0%": {
-            transform: "translateY(20px)",
+            transform: "translateY(-0.3rem)",
           },
           "100%": {
-            transform: "translateY(80px)",
+            transform: "translateY(1.5rem)",
           },
         },
       },
