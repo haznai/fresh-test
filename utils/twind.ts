@@ -8,22 +8,22 @@ export const config: Configuration = {
       {
         fontFamily: "Source\\ Serif\\ 4",
         fontWeight: 400,
-        src: "url(/fonts/source-serif-4-v7-latin-regular.woff) format(woff)",
+        src: 'url(/fonts/source-serif-4-v7-latin-regular.woff) format("woff")',
       },
       {
         fontFamily: "Source\\ Serif\\ 4",
         fontWeight: 600,
-        src: "url(/fonts/source-serif-4-v7-latin-600.woff) format(woff)",
+        src: 'url(/fonts/source-serif-4-v7-latin-600.woff) format("woff")',
       },
       {
         fontFamily: "Source\\ Sans\\ 3",
         fontWeight: 400,
-        src: "url(/fonts/source-sans-3-v8-latin-regular.woff) format(woff)",
+        src: 'url(/fonts/source-sans-3-v8-latin-regular.woff2) format("woff2")',
       },
       {
         fontFamily: "Source\\ Sans\\ 3",
         fontWeight: 700,
-        src: "url(/fonts/source-sans-3-v8-latin-700.woff) format(woff)",
+        src: 'url(/fonts/source-sans-3-v8-latin-700.woff2) format("woff2")',
       },
     ],
   },
