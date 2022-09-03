@@ -95,8 +95,8 @@ export function AboutMeSection() {
               "reading",
               "journaling",
               "vinyl",
-              "design x ai",
               "cutting-edge tech",
+              "design x ai",
             ]}
           />
         </SubSection>
