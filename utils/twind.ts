@@ -44,7 +44,7 @@ export const config: Configuration = {
       animation: {
         statueTop: "statueTop 8s ease-in-out infinite alternate;",
         statueBot: "statueBot 8s ease-in-out infinite alternate;",
-        gradient: "gradient 19s ease-in-out infinite alternate;",
+        gradient: "gradient 16s ease-in-out infinite alternate;",
       },
       keyframes: {
         statueTop: {
