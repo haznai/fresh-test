@@ -49,27 +49,27 @@ export function AboutMeSection() {
       >
         <img
           class={tw`absolute top-8 p-1 filter blur-xl animate-gradient z-0`}
-          src="/circle_1.png"
+          src="/statue/circle_1.png"
           alt="colorful blurry circle spinning in the background"
         />
 
         <img
           class={tw`absolute h-64 py-5 pl-5 pr-6 animate-statueTop z-30`}
           style="image-rendering:crisp-edges"
-          src="/statue_top.png"
+          src="/statue/statue_top.png"
           alt="drawn statue of my head"
         />
 
         <img
           class={tw`absolute h-64 py-5 pl-5 pr-6 animate-statueBot z-20`}
           style="image-rendering:crisp-edges"
-          src="/statue_bot.png"
+          src="/statue/statue_bot.png"
           alt="drawn statue of my head"
         />
 
         <img
           class={tw`relative h-64 py-5 pl-5 pr-6 z-10`}
-          src="/statue_bg.png"
+          src="/statue/statue_bg.png"
           style="image-rendering:crisp-edges"
           alt="drawn statue of my head"
         />
