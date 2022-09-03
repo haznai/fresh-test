@@ -13,11 +13,7 @@ export function Section({ heading, children }: SectionProps) {
   return (
     <section class={tw`pt-5`}>
       {heading != undefined ? (
-        // <div>
-        //   <h1 class={tw`text-3xl font-serif font-semibold`}>{heading}</h1>
-        //   <div class={tw`border-b-md border-black -mx-4`}></div>
-        // </div>
-        <div class={tw`relative -mx-4`}>
+        <div class={tw`relative -mx-6`}>
           <div
             class={tw`absolute inset-0 flex items-center`}
             aria-hidden="true"

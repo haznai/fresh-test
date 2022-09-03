@@ -42,7 +42,7 @@ export const IconBlockMarkups = {
 
 export function AboutMeSection() {
   return (
-    <div class={tw`grid grid-cols-2 grid-rows-min gap-3 pt-2`}>
+    <div class={tw`leading-snug grid grid-cols-2 grid-rows-min gap-3 pt-2`}>
       {/* floating statue */}
       <div
         class={tw`row-span-2 relative justify-self-center z-0 pointer-events-none`}
