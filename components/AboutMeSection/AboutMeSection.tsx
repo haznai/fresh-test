@@ -14,8 +14,8 @@ export const IconBlockMarkups = {
   reading: "/iconblocks/reading.svg",
   journaling: "/iconblocks/journaling.svg",
   vinyl: "/iconblocks/vinyl.svg",
-  "design x ai": "/iconblocks/design_x_ai.svg",
   "cutting-edge tech": "/iconblocks/cutting_edge_tech.svg",
+  "design x ai": "/iconblocks/design_x_ai.svg",
 
   // technologies
   "fast.ai": "/iconblocks/fastdotai.svg",
