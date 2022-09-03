@@ -65,16 +65,16 @@ export const config: Configuration = {
         },
         gradient: {
           "0%": {
-            transform: "translateY(-0.3rem) rotate(0deg)",
+            transform: "translateY(0rem) rotate(0deg)",
             opacity: 0.5,
           },
 
           "50%": {
-            transform: "translateY(1.5rem) rotate(180deg)",
+            transform: "translateY(1.2rem) rotate(180deg)",
             opacity: 0.8,
           },
           "100%": {
-            transform: "translateY(-0.3rem) rotate(360deg)",
+            transform: "translateY(0rem) rotate(360deg)",
             opacity: 1,
           },
         },
