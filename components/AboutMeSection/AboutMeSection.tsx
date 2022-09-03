@@ -54,15 +54,22 @@ export function AboutMeSection() {
         />
 
         <img
-          class={tw`absolute h-64 py-5 pl-5 pr-6 animate-statue z-20`}
+          class={tw`absolute h-64 py-5 pl-5 pr-6 animate-statueTop z-30`}
           style="image-rendering:crisp-edges"
-          src="/head_fg.png"
+          src="/statue_top.png"
+          alt="drawn statue of my head"
+        />
+
+        <img
+          class={tw`absolute h-64 py-5 pl-5 pr-6 animate-statueBot z-20`}
+          style="image-rendering:crisp-edges"
+          src="/statue_bot.png"
           alt="drawn statue of my head"
         />
 
         <img
           class={tw`relative h-64 py-5 pl-5 pr-6 z-10`}
-          src="/head_bg.png"
+          src="/statue_bg.png"
           style="image-rendering:crisp-edges"
           alt="drawn statue of my head"
         />

@@ -42,16 +42,25 @@ export const config: Configuration = {
     },
     extend: {
       animation: {
-        statue: "statue 6s ease-in-out infinite alternate;",
-        gradient: "gradient 12s ease-in-out infinite alternate;",
+        statueTop: "statueTop 8s ease-in-out infinite alternate;",
+        statueBot: "statueBot 8s ease-in-out infinite alternate;",
+        gradient: "gradient 19s ease-in-out infinite alternate;",
       },
       keyframes: {
-        statue: {
+        statueTop: {
           "0%": {
-            transform: "translateY(-0.3rem)",
+            transform: "translateY(0rem)",
           },
           "100%": {
-            transform: "translateY(1.5rem)",
+            transform: "translateY(1.6rem)",
+          },
+        },
+        statueBot: {
+          "0%": {
+            transform: "translateY(0rem)",
+          },
+          "100%": {
+            transform: "translateY(0.9rem)",
           },
         },
         gradient: {
