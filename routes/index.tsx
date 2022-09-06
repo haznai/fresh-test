@@ -5,6 +5,7 @@ import { Head } from "$fresh/runtime.ts";
 import { Section } from "../components/Section.tsx";
 import { AboutMeSection } from "../components/AboutMeSection/AboutMeSection.tsx";
 import { Header } from "../components/Header.tsx";
+import { Project } from "../components/project.tsx";
 
 export default function Home() {
   return (
@@ -41,7 +42,9 @@ export default function Home() {
               <AboutMeSection />
             </Section>
             {/* projects */}
-            <Section heading="Projects"></Section>
+            <Section heading="Projects" topPadding={true}>
+              <Project heading="VirtualWardrobe">lmao</Project>
+            </Section>
           </main>
         </div>
       </body>
