@@ -35,7 +35,7 @@ export function Section({
           </div>
         </div>
       ) : null}
-      {topPadding ? <div class={tw`pt-5`}></div> : null}
+      {topPadding ? <div class={tw`pt-7`}></div> : null}
       {children}
     </section>
   );
