@@ -7,9 +7,14 @@ import type { VNode } from "preact";
 interface SectionProps {
   heading?: string;
   children?: VNode[] | VNode;
+  topPadding?: boolean;
 }
 
-export function Section({ heading, children }: SectionProps) {
+export function Section({
+  heading,
+  children,
+  topPadding = false,
+}: SectionProps) {
   return (
     <section class={tw`pt-5`}>
       {heading != undefined ? (
@@ -30,6 +35,7 @@ export function Section({ heading, children }: SectionProps) {
           </div>
         </div>
       ) : null}
+      {topPadding ? <div class={tw`pt-5`}></div> : null}
       {children}
     </section>
   );
