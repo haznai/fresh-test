@@ -32,7 +32,7 @@ export default function Home() {
         />
         <title>Hasan Atak's Homepage</title>
       </Head>
-      <body>
+      <body class={tw`leading-snug`}>
         <div class={tw`max-w-xl mx-auto bg-white `}>
           <Header />
           <main class={tw`px-6`}>
