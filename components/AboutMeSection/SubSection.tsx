@@ -1,5 +1,4 @@
 /**@jsx h */
-/**@jsxFrag h */
 import { h } from "preact";
 import type { VNode } from "preact";
 import { TW, tw } from "@twind";
