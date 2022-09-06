@@ -43,7 +43,7 @@ export default function Home() {
             </Section>
             {/* projects */}
             <Section heading="Projects" topPadding={true}>
-              <Project heading="VirtualWardrobe">lmao</Project>
+              <Project heading="VirtualWardrobe"></Project>
             </Section>
           </main>
         </div>
