@@ -22,6 +22,8 @@ export const IconBlockMarkups = {
   // technologies
   "fast.ai": "/iconblocks/fastdotai.svg",
   swift: "/iconblocks/swift.svg",
+  swiftui: "/iconblocks/swift.svg",
+  coreml: "/iconblocks/coreml.svg",
   python: "/iconblocks/python.svg",
   "next.js": "/iconblocks/nextdotjs.svg",
   Prisma: "/iconblocks/prisma.svg",
