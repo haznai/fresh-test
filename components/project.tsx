@@ -11,14 +11,15 @@ interface ProjectProps {
 export function Project({ heading, children }: ProjectProps) {
   return (
     <div class={tw`grid grid-cols-5 gap-x-2`}>
-      {/* heading full row */}
-      <div class={tw`flex col-span-full`}>
+      {/* heading */}
+      <div class={tw`col-span-2`}>
         <h2 class={tw`font-serif font-semibold`}>{heading}</h2>
-        <div class={tw`w-full flex justify-end`}>
-          <div>Tech 1</div>
-          <div>Tech 2</div>
-        </div>
       </div>
+
+      {/* icons */}
+      <div class={tw`col-span-3 flex justify-end`}></div>
+
+      {/* border under heading full row */}
       <div class={tw`col-span-full pb-4 border-t-sm border-black`} />
       <div class={tw`col-span-2`}>
         <img
