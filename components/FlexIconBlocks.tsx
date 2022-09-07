@@ -1,8 +1,8 @@
 /** @jsx h */
 import { h } from "preact";
 import { tw } from "@twind";
-import { IconBlock } from "../IconBlock.tsx";
-import { IconBlockMarkups } from "./AboutMeSection.tsx";
+import { IconBlock } from "./IconBlock.tsx";
+import { IconBlockMarkups } from "../routes/index.tsx";
 
 interface FlexIconBlocksProps {
   // takes only keys (icons) that exist in `IconBlockMarkups`

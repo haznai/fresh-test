@@ -2,43 +2,7 @@
 import { h } from "preact";
 import { tw } from "@twind";
 import { SubSection } from "./SubSection.tsx";
-import { FlexIconBlocks } from "./FlexIconBlocks.tsx";
-
-// all possible iconblocks are stored here
-
-export const IconBlockMarkups = {
-  //interests
-  football: "/iconblocks/football.svg",
-  mma: "/iconblocks/mma.svg",
-  "taking walks": "/iconblocks/taking_walks.svg",
-  reading: "/iconblocks/reading.svg",
-  journaling: "/iconblocks/journaling.svg",
-  vinyl: "/iconblocks/vinyl.svg",
-  "cutting-edge tech": "/iconblocks/cutting_edge_tech.svg",
-  "design x ai": "/iconblocks/design_x_ai.svg",
-
-  // technologies
-  "fast.ai": "/iconblocks/fastdotai.svg",
-  swift: "/iconblocks/swift.svg",
-  python: "/iconblocks/python.svg",
-  "next.js": "/iconblocks/nextdotjs.svg",
-  Prisma: "/iconblocks/prisma.svg",
-  xcode: "/iconblocks/xcode.svg",
-  vscode: "/iconblocks/vscode.svg",
-  webassembly: "/iconblocks/webassembly.svg",
-  blender: "/iconblocks/blender.svg",
-  tailwindcss: "/iconblocks/tailwindcss.svg",
-  deno: "/iconblocks/deno.svg",
-  typescript: "/iconblocks/typescript.svg",
-  sqlite: "/iconblocks/sqlite.svg",
-  docker: "/iconblocks/docker.svg",
-  jupyter: "/iconblocks/jupyter.svg",
-  figma: "/iconblocks/figma.svg",
-  vim: "/iconblocks/vim.svg",
-  rust: "/iconblocks/rust.svg",
-  react: "/iconblocks/react.svg",
-  git: "/iconblocks/git.svg",
-};
+import { FlexIconBlocks } from "../FlexIconBlocks.tsx";
 
 export function AboutMeSection() {
   return (
