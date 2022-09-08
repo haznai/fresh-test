@@ -42,7 +42,6 @@ export function Project({ heading, children }: ProjectProps) {
         premise is simple, make your wardrobe portable by digitally carrying
         your clothes with you. This was realized with the help of two concepts:
         cross-platform availability and embedded artificial intelligence.
-        Dolore, amet veniam pariatur eiusmod.
       </div>
     </div>
   );
