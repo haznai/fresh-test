@@ -2,14 +2,14 @@
 import { h } from "preact";
 import type { VNode } from "preact";
 import { TW, tw } from "@twind";
-import { FlexIconBlocks } from "./FlexIconBlocks.tsx";
+import { FlexIconBlocks, FlexIconBlocksProps } from "./FlexIconBlocks.tsx";
 
-interface ProjectProps {
+interface ProjectProps extends FlexIconBlocksProps {
   heading: string;
-  children?: VNode[] | VNode | string;
+  children: VNode[] | VNode | string;
 }
 
-export function Project({ heading, children }: ProjectProps) {
+export function Project({ heading, children, iconNames }: ProjectProps) {
   return (
     <div class={tw`grid grid-cols-5 gap-x-2 pb-10`}>
       {/* heading */}
@@ -26,7 +26,7 @@ export function Project({ heading, children }: ProjectProps) {
       <div
         class={tw`row-start-4 col-span-2 sm:col-span-3 sm:row-start-2 sm:-mt-2.5 sm:pb-3`}
       >
-        <FlexIconBlocks iconNames={["swift", "swiftui", "coreml"]} />
+        <FlexIconBlocks iconNames={iconNames} />
       </div>
 
       {/* image */}
@@ -37,12 +37,7 @@ export function Project({ heading, children }: ProjectProps) {
         />
       </div>
       {/* project description */}
-      <div class={tw`col-span-3 row-start-3 row-end-6`}>
-        VirtualWardrobe is the application I created for my bachelor thesis. Its
-        premise is simple, make your wardrobe portable by digitally carrying
-        your clothes with you. This was realized with the help of two concepts:
-        cross-platform availability and embedded artificial intelligence.
-      </div>
+      <div class={tw`col-span-3 row-start-3 row-end-6`}>{children}</div>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { tw } from "@twind";
 import { IconBlock } from "./IconBlock.tsx";
 import { IconBlockMarkups } from "../routes/index.tsx";
 
-interface FlexIconBlocksProps {
+export interface FlexIconBlocksProps {
   // takes only keys (icons) that exist in `IconBlockMarkups`
   iconNames: (keyof typeof IconBlockMarkups)[];
 }

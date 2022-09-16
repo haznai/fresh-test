@@ -80,7 +80,16 @@ export default function Home() {
             </Section>
             {/* projects */}
             <Section heading="Projects" topPadding={true}>
-              <Project heading="VirtualWardrobe"></Project>
+              <Project
+                heading="VirtualWardrobe"
+                iconNames={["swift", "swiftui", "coreml"]}
+              >
+                VirtualWardrobe is the application I created for my bachelor
+                thesis. Its premise is simple, make your wardrobe portable by
+                digitally carrying your clothes with you. This was realized with
+                the help of two concepts: cross-platform availability and
+                embedded artificial intelligence.
+              </Project>
             </Section>
           </main>
         </div>
