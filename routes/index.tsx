@@ -84,11 +84,14 @@ export default function Home() {
                 heading="VirtualWardrobe"
                 iconNames={["swift", "swiftui", "coreml"]}
               >
-                VirtualWardrobe is the application I created for my bachelor
-                thesis. Its premise is simple, make your wardrobe portable by
-                digitally carrying your clothes with you. This was realized with
-                the help of two concepts: cross-platform availability and
-                embedded artificial intelligence.
+                VirtualWardrobe is a cross-platform application I created for my
+                bachelor thesis. The premise is simple, make your wardrobe
+                portable by digitally carrying your pictures of your clothing
+                with you. A custom machine learning model processed the pictures
+                to crop and categorize the clothes. Embedding the machine
+                learning model ensured that the pictures stay private and never
+                leave your own devices (iOS, iPadOS, macOS) or private cloud
+                (iCloud).
               </Project>
             </Section>
           </main>
