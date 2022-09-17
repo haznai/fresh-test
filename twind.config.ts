@@ -7,25 +7,21 @@ export default {
     "@font-face": [
       {
         fontFamily: "Source\\ Serif\\ 4",
-        fontDisplay: "swap",
         fontWeight: 400,
         src: 'url(/fonts/source-serif-4-v7-latin-regular.woff) format("woff")',
       },
       {
         fontFamily: "Source\\ Serif\\ 4",
-        fontDisplay: "swap",
         fontWeight: 600,
         src: 'url(/fonts/source-serif-4-v7-latin-600.woff) format("woff")',
       },
       {
         fontFamily: "Source\\ Sans\\ 3",
-        fontDisplay: "swap",
         fontWeight: 400,
         src: 'url(/fonts/source-sans-3-v8-latin-regular.woff2) format("woff2")',
       },
       {
         fontFamily: "Source\\ Sans\\ 3",
-        fontDisplay: "swap",
         fontWeight: 700,
         src: 'url(/fonts/source-sans-3-v8-latin-700.woff2) format("woff2")',
       },
