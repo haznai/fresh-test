@@ -3,6 +3,7 @@ import { Section } from "../components/Section.tsx";
 import { AboutMeSection } from "../components/AboutMeSection/AboutMeSection.tsx";
 import { Header } from "../components/Header.tsx";
 import { Project } from "../components/project.tsx";
+import { Project } from "../components/Project.tsx";
 
 // all possible iconblocks are stored here
 export const IconBlockMarkups = {
