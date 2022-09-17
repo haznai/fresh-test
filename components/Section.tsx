@@ -1,7 +1,3 @@
-/** @jsx h */
-
-import { h } from "preact";
-import { tw } from "@twind";
 import type { VNode } from "preact";
 
 interface SectionProps {
@@ -16,18 +12,18 @@ export function Section({
   topPadding = false,
 }: SectionProps) {
   return (
-    <section class={tw`pt-5`}>
+    <section class="pt-5">
       {heading != undefined ? (
-        <div class={tw`relative -mx-6`}>
+        <div class="relative -mx-6">
           <div
-            class={tw`absolute inset-0 flex items-center`}
+            class="absolute inset-0 flex items-center"
             aria-hidden="true"
           >
-            <div class={tw`w-full border-b-md border-black`}></div>
+            <div class="w-full border-b-md border-black"></div>
           </div>
-          <div class={tw`relative flex justify-center`}>
+          <div class="relative flex justify-center">
             <h1
-              class={tw`px-3 bg-white text-3xl font-serif font-semibold`}
+              class="px-3 bg-white text-3xl font-serif font-semibold"
               style="font-variant:small-caps;"
             >
               {heading}
@@ -35,7 +31,7 @@ export function Section({
           </div>
         </div>
       ) : null}
-      {topPadding ? <div class={tw`pt-7`}></div> : null}
+      {topPadding ? <div class="pt-7"></div> : null}
       {children}
     </section>
   );

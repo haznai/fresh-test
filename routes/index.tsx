@@ -1,6 +1,3 @@
-/** @jsx h */
-import { h } from "preact";
-import { tw } from "@twind";
 import { Head } from "$fresh/runtime.ts";
 import { Section } from "../components/Section.tsx";
 import { AboutMeSection } from "../components/AboutMeSection/AboutMeSection.tsx";
@@ -46,7 +43,7 @@ export const IconBlockMarkups = {
 
 export default function Home() {
   return (
-    <html class={tw`md:text-xl font-sans`}>
+    <html class="md:text-xl font-sans">
       <Head>
         <meta name="viewport" content="width=device-width" />
         {/* favicons */}
@@ -70,10 +67,10 @@ export default function Home() {
         />
         <title>Hasan Atak's Homepage</title>
       </Head>
-      <body class={tw`leading-snug`}>
-        <div class={tw`max-w-xl mx-auto bg-white `}>
+      <body class="leading-snug">
+        <div class="max-w-xl mx-auto bg-white ">
           <Header />
-          <main class={tw`px-6`}>
+          <main class="px-6">
             {/* about me */}
             <Section>
               <AboutMeSection />

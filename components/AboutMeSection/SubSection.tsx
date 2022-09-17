@@ -1,7 +1,5 @@
-/**@jsx h */
-import { h } from "preact";
 import type { VNode } from "preact";
-import { TW, tw } from "@twind";
+import { TW } from "twind";
 
 interface SubSectionProps {
   heading: string;
@@ -11,10 +9,10 @@ interface SubSectionProps {
 export function SubSection({ heading, children }: SubSectionProps) {
   return (
     <div>
-      <div class={tw` border-b-sm border-black`}>
-        <h2 class={tw`font-serif font-semibold`}>{heading}</h2>
+      <div class=" border-b-sm border-black">
+        <h2 class="font-serif font-semibold">{heading}</h2>
       </div>
-      <div class={tw`pt-2`}>{children}</div>
+      <div class="pt-2">{children}</div>
     </div>
   );
 }
