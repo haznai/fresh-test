@@ -1,21 +1,21 @@
+import type { VNode } from "preact";
+
 interface LinkBlockProps {
-  text: string;
+  children: VNode[] | VNode | string;
   href: string;
 }
-export function LinkBlock({ text, href }: LinkBlockProps) {
+export function LinkBlock({ children, href }: LinkBlockProps) {
   return (
-    <div
-      class="relative inline-flex gap-0.5 pl-1 pr-1.5 py-0.5 overflow-hidden items-center group border-sm border-black"
+    <a
+      class="relative inline-flex min-w-[3.2rem] gap-0.5 px-2 py-1 justify-center text-white transition-all ease-in-out duration-200 bg-gradient-to-br from-black via-black to-pink-500 bg-size-200 hover:bg-right-bottom hover:scale-110"
+      href={href}
     >
-      <span
-        class="absolute left-0 w-6 h-12 duration-1000 -translate-x-10 rotate-[20deg] group-hover:translate-x-36 bg-black"
-      />
       <img
         class="h-4"
         src={"/iconblocks/link.svg"}
-        alt="logo of the technology"
+        alt="forward right arrow symbolizing a link"
       />
-      <span class=" font-bold uppercase text-xs">{text}</span>
-    </div>
+      <span class="font-bold uppercase text-xs">{children}</span>
+    </a>
   );
 }

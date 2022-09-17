@@ -1,5 +1,6 @@
 import { SubSection } from "./SubSection.tsx";
 import { FlexIconBlocks } from "../FlexIconBlocks.tsx";
+import { LinkBlock } from "../LinkBlock.tsx";
 
 export function AboutMeSection() {
   return (
@@ -37,9 +38,17 @@ export function AboutMeSection() {
       {/* about me */}
       <div class="row-span-2 sm:row-span-1">
         <SubSection heading="About me">
-          Twenty-something software engineer from Zurich. Passionate about
-          developing Fullstack applications with Applied Artificial
-          Intelligence.
+          <p>
+            Twenty-something software engineer from Zurich. Passionate about
+            developing Fullstack applications with Applied Artificial
+            Intelligence.
+          </p>
+          <div class="flex gap-3 pt-2">
+            <LinkBlock href="/cv.pdf">CV</LinkBlock>
+            <LinkBlock href="https://www.linkedin.com/in/hazn/">
+              LinkedIN
+            </LinkBlock>
+          </div>
         </SubSection>
       </div>
 

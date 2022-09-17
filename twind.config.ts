@@ -44,6 +44,9 @@ export default {
         "Source\\ Serif\\ 4, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
     },
     extend: {
+      backgroundSize: {
+        "size-200": "200% 200%",
+      },
       animation: {
         statueTop: "statueTop 8s ease-in-out infinite alternate;",
         statueBot: "statueBot 8s ease-in-out infinite alternate;",
