@@ -11,7 +11,7 @@ export function Project({ heading, children, iconNames }: ProjectProps) {
     <div class="grid grid-cols-5 gap-x-2 pb-7">
       {/* heading */}
       <div class="col-span-full sm:col-span-2 row-start-1">
-        <h2 class="font-serif font-semibold">{heading}</h2>
+        <h2 class="font-serif font-semibold text-lg md:text-base">{heading}</h2>
       </div>
 
       {/* border under heading*/}

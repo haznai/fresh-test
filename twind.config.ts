@@ -27,7 +27,7 @@ export default {
       },
     ],
     "p + p": {
-      marginTop: "1rem",
+      marginTop: "0.75rem",
     },
   },
   darkMode: "class",
