@@ -5,9 +5,7 @@ export function AboutMeSection() {
   return (
     <div class="grid grid-cols-2 gap-3 pt-2">
       {/* floating statue */}
-      <div
-        class="row-span-2 relative justify-self-center z-0 pointer-events-none"
-      >
+      <div class="row-span-2 relative justify-self-center z-0 pointer-events-none">
         <img
           class="absolute top-8 p-1 filter blur-xl animate-gradient z-0"
           src="/statue/circle_1.png"
