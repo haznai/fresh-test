@@ -26,6 +26,9 @@ export default {
         src: 'url(/fonts/source-sans-3-v8-latin-700.woff2) format("woff2")',
       },
     ],
+    "p + p": {
+      marginTop: "1rem",
+    },
   },
   darkMode: "class",
   mode: "strict",
