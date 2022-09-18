@@ -39,6 +39,7 @@ export const IconBlockMarkups = {
   rust: "/iconblocks/rust.svg",
   react: "/iconblocks/react.svg",
   git: "/iconblocks/git.svg",
+  wordpress: "/iconblocks/wordpress.svg",
 };
 
 export default function Home() {
