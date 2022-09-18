@@ -32,7 +32,7 @@ export function Project({
 
       {/* image */}
       <div class="pb-3 sm:pb-0 col-span-2 row-start-3">
-        <img src={imgSrc} alt={alt} />
+        <img class="mx-auto" src={imgSrc} alt={alt} />
       </div>
 
       {/* project description */}
