@@ -68,7 +68,7 @@ export function ProjectSection() {
       >
         <p>
           Padessi is the outcome of an internal company hackathon. Our idea was
-          an application that showed employees of the company free parking
+          a mobile application that showed employees of the company free parking
           spaces.
         </p>
         <p>
