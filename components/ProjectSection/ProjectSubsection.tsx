@@ -1,12 +1,20 @@
 import type { VNode } from "preact";
-import { FlexIconBlocks, FlexIconBlocksProps } from "./FlexIconBlocks.tsx";
+import { FlexIconBlocks, FlexIconBlocksProps } from "../FlexIconBlocks.tsx";
 
 interface ProjectProps extends FlexIconBlocksProps {
   heading: string;
   children: VNode[] | VNode | string;
+  imgSrc: string;
+  alt: string;
 }
 
-export function Project({ heading, children, iconNames }: ProjectProps) {
+export function Project({
+  heading,
+  children,
+  iconNames,
+  imgSrc,
+  alt,
+}: ProjectProps) {
   return (
     <div class="grid grid-cols-5 gap-x-2 pb-7">
       {/* heading */}
@@ -24,11 +32,9 @@ export function Project({ heading, children, iconNames }: ProjectProps) {
 
       {/* image */}
       <div class="pb-3 sm:pb-0 col-span-2 row-start-3">
-        <img
-          src="/projects/virtualwardrobe.png"
-          alt="picture of a mac and iphone with the virtualwardrobe application on their screens"
-        />
+        <img src={imgSrc} alt={alt} />
       </div>
+
       {/* project description */}
       <div class="col-span-3 row-start-3 row-end-6">{children}</div>
     </div>

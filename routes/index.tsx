@@ -2,7 +2,7 @@ import { Head } from "$fresh/runtime.ts";
 import { Section } from "../components/Section.tsx";
 import { AboutMeSection } from "../components/AboutMeSection/AboutMeSection.tsx";
 import { Header } from "../components/Header.tsx";
-import { Project } from "../components/ProjectSubsection.tsx";
+import { ProjectSection } from "../components/ProjectSection/ProjectSection.tsx";
 
 // all possible iconblocks are stored here
 export const IconBlockMarkups = {
@@ -77,24 +77,7 @@ export default function Home() {
             </Section>
             {/* projects */}
             <Section heading="Projects" topPadding={true}>
-              <Project
-                heading="VirtualWardrobe"
-                iconNames={["swift", "swiftui", "coreml"]}
-              >
-                <p>
-                  VirtualWardrobe is a cross-platform application I created for
-                  my bachelor thesis. The premise is simple, make your wardrobe
-                  portable by digitally carrying your pictures of your clothing
-                  with you.
-                </p>
-                <p>
-                  A custom machine learning model processed the pictures to crop
-                  and categorize the clothes. Embedding the machine learning
-                  model ensured that the pictures stay private and never leave
-                  your own devices (iOS, iPadOS, macOS) or private cloud
-                  (iCloud).
-                </p>
-              </Project>
+              <ProjectSection />
             </Section>
           </main>
         </div>
