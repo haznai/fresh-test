@@ -40,6 +40,9 @@ export const IconBlockMarkups = {
   react: "/iconblocks/react.svg",
   git: "/iconblocks/git.svg",
   wordpress: "/iconblocks/wordpress.svg",
+  tensorflow: "/iconblocks/tensorflow.svg",
+  xgboost: "/iconblocks/xgboost.svg",
+  rpi: "/iconblocks/rpi.svg",
 };
 
 export default function Home() {
