@@ -10,7 +10,7 @@ export function ProjectSection() {
         imgSrc="/projects/priopartners.svg"
         alt="triangle with the company logo in the middle of it"
       >
-        <p>Redesigned the website of the wealth investment company.</p>
+        <p>Redesigned the website of a wealth investment company.</p>
         <div class="pt-2">
           <LinkBlock href="https://priopartners.ch/en/wealth-management/">
             Website
