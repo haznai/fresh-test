@@ -71,7 +71,7 @@ export function AboutMeSection() {
       </div>
 
       {/* technologies */}
-      <div class="row-span-1 col-span-2 pt-2 pb-3">
+      <div class="row-span-1 col-span-2 pt-2 pb-8">
         <SubSection heading="Technologies">
           <FlexIconBlocks
             iconNames={[
