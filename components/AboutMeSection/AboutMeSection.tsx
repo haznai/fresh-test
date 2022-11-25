@@ -44,10 +44,10 @@ export function AboutMeSection() {
             Intelligence.
           </p>
           <div class="flex gap-3 pt-2">
-            <LinkBlock href="/cv.pdf">CV</LinkBlock>
+            {/* <LinkBlock href="/cv.pdf">CV</LinkBlock>
             <LinkBlock href="https://www.linkedin.com/in/hazn/">
               LinkedIN
-            </LinkBlock>
+            </LinkBlock> */}
           </div>
         </SubSection>
       </div>
