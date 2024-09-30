@@ -74,7 +74,7 @@ export function ProjectSection() {
         <p>
           A Raspberry Pi equipped with a camera periodically took pictures of
           the company parking lot. An artificial intelligence on the Pi analyzed
-          the images and reported the free parking spaces to a server. My team
+          the images and reported the free parking spaces to a server. Our team
           won third place out of more than 30 teams.
         </p>
       </Project>
