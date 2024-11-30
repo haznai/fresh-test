@@ -44,10 +44,12 @@ export function AboutMeSection() {
             Intelligence.
           </p>
           <div class="flex gap-3 pt-2">
-            {/* <LinkBlock href="/cv.pdf">CV</LinkBlock>
+            {
+              /* <LinkBlock href="/cv.pdf">CV</LinkBlock>
             <LinkBlock href="https://www.linkedin.com/in/hazn/">
               LinkedIN
-            </LinkBlock> */}
+            </LinkBlock> */
+            }
           </div>
         </SubSection>
       </div>
@@ -78,8 +80,10 @@ export function AboutMeSection() {
               "rust",
               "swift",
               "python",
+              "php",
               "typescript",
               "deno",
+              "drupal",
               "next.js",
               "react",
               "webassembly",
@@ -89,6 +93,8 @@ export function AboutMeSection() {
               "sqlite",
               "jupyter",
               "fast.ai",
+              "pytorch",
+              "dspy",
               "blender",
               "vscode",
               "xcode",
@@ -96,7 +102,8 @@ export function AboutMeSection() {
               "git",
               "docker",
             ]}
-          ></FlexIconBlocks>
+          >
+          </FlexIconBlocks>
         </SubSection>
       </div>
     </div>

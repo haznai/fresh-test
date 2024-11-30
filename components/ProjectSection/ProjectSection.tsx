@@ -5,7 +5,57 @@ export function ProjectSection() {
   return (
     <>
       <Project
+        heading="peopen — People's Pen"
+        iconNames={["python", "dspy", "typescript"]}
+        imgSrc="/projects/peopen.png"
+        alt="Logo of the peopen application, a Swiss person holding a pen"
+      >
+        <p>
+          Crafted an AI-powered platform that enables Swiss citizens to draft
+          popular initiatives through real-time human-AI collaboration,
+          transforming direct democratic participation with cutting-edge
+          language technology.
+        </p>
+        <p>
+          Done as a Master's thesis in collaboration with the DDIS Lab at the
+          University Zurich.
+        </p>
+      </Project>
+      <Project
+        heading="Informfully"
+        iconNames={["typescript", "react"]}
+        imgSrc="/projects/informfully.png"
+        alt="Logo of the informfully application, an open Book with the UZH logo above it"
+      >
+        <p>
+          Developed an open-source mobile platform that simplifies user studies
+          by enabling researchers to deliver and monitor multimedia content in
+          real-time, with a focus on news diversity and AI-driven content
+          recommendations. Used in academic research to study how content
+          diversity and exposure to minority voices affect user engagement.
+        </p>
+        <p>
+          Done as a Master's project in collaboration with the DDIS Lab at the
+          University of Zurich.
+        </p>
+      </Project>
+      <Project
+        heading="Semantic Job Search"
+        iconNames={["php", "drupal", "typescript"]}
+        imgSrc="/projects/mgb.png"
+        alt="Icon saying Migros Gruppe Arbeitswelt"
+      >
+        <p>
+          Developed a semantic search backend for Switzerland's largest
+          employer, leveraging large language models and vector embeddings to
+          match job seekers with relevant positions. The system understands the
+          meaning behind job descriptions and search queries, enabling more
+          intelligent job recommendations beyond keyword matching.
+        </p>
+      </Project>
+      <Project
         heading="Prio Partners AG Website"
+        a
         iconNames={["wordpress", "figma"]}
         imgSrc="/projects/priopartners.svg"
         alt="triangle with the company logo in the middle of it"

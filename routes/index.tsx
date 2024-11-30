@@ -43,6 +43,10 @@ export const IconBlockMarkups = {
   tensorflow: "/iconblocks/tensorflow.svg",
   xgboost: "/iconblocks/xgboost.svg",
   rpi: "/iconblocks/rpi.svg",
+  php: "/iconblocks/php.svg",
+  drupal: "/iconblocks/drupal.svg",
+  pytorch: "/iconblocks/pytorch.svg",
+  dspy: "/iconblocks/dspy.svg",
 };
 
 export default function Home() {

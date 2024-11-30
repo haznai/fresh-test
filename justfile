@@ -1,0 +1,2 @@
+start:
+  deno task start
