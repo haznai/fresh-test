@@ -55,7 +55,6 @@ export function ProjectSection() {
       </Project>
       <Project
         heading="Prio Partners AG Website"
-        a
         iconNames={["wordpress", "figma"]}
         imgSrc="/projects/priopartners.svg"
         alt="triangle with the company logo in the middle of it"

@@ -3,6 +3,7 @@ import { Section } from "../components/Section.tsx";
 import { AboutMeSection } from "../components/AboutMeSection/AboutMeSection.tsx";
 import { Header } from "../components/Header.tsx";
 import { ProjectSection } from "../components/ProjectSection/ProjectSection.tsx";
+import TalksSection from "../components/TalksSection/TalksSection.tsx";
 
 // all possible iconblocks are stored here
 export const IconBlockMarkups = {
@@ -82,6 +83,10 @@ export default function Home() {
             {/* about me */}
             <Section>
               <AboutMeSection />
+            </Section>
+            {/* talks */}
+            <Section heading="Talks" topPadding={true}>
+              <TalksSection />
             </Section>
             {/* projects */}
             <Section heading="Projects" topPadding={true}>
