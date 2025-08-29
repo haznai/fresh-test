@@ -60,11 +60,6 @@ export function ProjectSection() {
         alt="triangle with the company logo in the middle of it"
       >
         <p>Redesigned the website of a wealth investment company.</p>
-        <div class="pt-2">
-          <LinkBlock href="https://priopartners.ch/en/wealth-management/">
-            Website
-          </LinkBlock>
-        </div>
       </Project>
       <Project
         heading="Sequential Experiment Design"

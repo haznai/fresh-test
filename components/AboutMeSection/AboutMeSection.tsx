@@ -45,10 +45,10 @@ export function AboutMeSection() {
           </p>
           <div class="flex gap-3 pt-2">
             {
-              /* <LinkBlock href="/cv.pdf">CV</LinkBlock>
+            <LinkBlock href="/cv_hasan_atak.pdf">CV</LinkBlock>
             <LinkBlock href="https://www.linkedin.com/in/hazn/">
               LinkedIN
-            </LinkBlock> */
+            </LinkBlock>
             }
           </div>
         </SubSection>
