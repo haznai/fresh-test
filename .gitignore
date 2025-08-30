@@ -2,3 +2,6 @@
 .envrc
 devbox.json
 devbox.lock
+
+# Fresh build directory
+_fresh/

@@ -4,6 +4,7 @@ import { LinkBlock } from "../LinkBlock.tsx";
 
 export function AboutMeSection() {
   return (
+   <>
     <div class="grid grid-cols-2 gap-3 pt-2">
       {/* floating statue */}
       <div class="row-span-2 relative justify-self-center z-0 pointer-events-none">
@@ -44,12 +45,10 @@ export function AboutMeSection() {
             Intelligence.
           </p>
           <div class="flex gap-3 pt-2">
-            {
             <LinkBlock href="/cv_hasan_atak.pdf">CV</LinkBlock>
             <LinkBlock href="https://www.linkedin.com/in/hazn/">
               LinkedIN
             </LinkBlock>
-            }
           </div>
         </SubSection>
       </div>
@@ -107,5 +106,6 @@ export function AboutMeSection() {
         </SubSection>
       </div>
     </div>
+    </>
   );
 }
