@@ -39,7 +39,8 @@ export default {
       lg: "0.2rem",
     },
     fontFamily: {
-      sans: "Source\\ Sans\\ 3, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+      sans:
+        "Source\\ Sans\\ 3, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
       serif:
         "Source\\ Serif\\ 4, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
     },

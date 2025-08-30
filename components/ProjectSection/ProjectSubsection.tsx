@@ -23,7 +23,8 @@ export function Project({
       </div>
 
       {/* border under heading*/}
-      <div class="col-span-full pb-3 sm:pb-0 sm:col-span-2 row-start-2 border-t-sm border-black"></div>
+      <div class="col-span-full pb-3 sm:pb-0 sm:col-span-2 row-start-2 border-t-sm border-black">
+      </div>
 
       {/* icons */}
       <div class="row-start-4 col-span-2 sm:col-span-3 sm:row-start-2 sm:-mt-2.5 sm:pb-3">

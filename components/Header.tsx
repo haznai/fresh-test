@@ -10,15 +10,14 @@ export function Header() {
           alt="logo saying hazn in fancy way"
         />
         {/* as above, so below */}
-        <div
-          class="inline-flex flex-none items-center pr-4 -ml-8 font-serif"
-        >
+        <div class="inline-flex flex-none items-center pr-4 -ml-8 font-serif">
           <span>as above, so below</span>
 
           <img
             class="h-5 pointer-events-none"
             src="/header/sparkles.svg"
-          ></img>
+          >
+          </img>
         </div>
       </div>
     </header>

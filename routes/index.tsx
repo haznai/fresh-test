@@ -52,22 +52,22 @@ export const IconBlockMarkups = {
 
 export default function Home() {
   return (
-        <div class="max-w-xl leading-snug mx-auto bg-white ">
-          <Header />
-          <main class="px-6">
-            {/* about me */}
-            <Section>
-              <AboutMeSection />
-            </Section>
-            {/* talks */}
-            <Section heading="Talks" topPadding={true}>
-              <TalksSection />
-            </Section>
-            {/* projects */}
-            <Section heading="Projects" topPadding={true}>
-              <ProjectSection />
-            </Section>
-          </main>
-        </div>
+    <div class="max-w-xl leading-snug mx-auto bg-white ">
+      <Header />
+      <main class="px-6">
+        {/* about me */}
+        <Section>
+          <AboutMeSection />
+        </Section>
+        {/* talks */}
+        <Section heading="Talks" topPadding={true}>
+          <TalksSection />
+        </Section>
+        {/* projects */}
+        <Section heading="Projects" topPadding={true}>
+          <ProjectSection />
+        </Section>
+      </main>
+    </div>
   );
 }
